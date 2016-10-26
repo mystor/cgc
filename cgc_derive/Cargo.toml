@@ -1,0 +1,13 @@
+[package]
+name = "cgc_derive"
+version = "0.1.0"
+authors = ["Michael Layzell <michael@thelayzells.com>"]
+
+[lib]
+name = "gc_derive"
+proc-macro = true
+
+[dependencies]
+syn = "0.9"
+quote = "0.3"
+synstructure = "0.2"
